@@ -1,0 +1,32 @@
+.foto {
+  float: left;
+  margin-right: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 220px;
+}
+
+.information {
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.employer,
+.period {
+  width: 180px;
+}
+
+.position {
+	width: 260px;
+}
+
+.education {
+	width: 600px;
+}
